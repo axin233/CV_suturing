@@ -1,5 +1,5 @@
 # Computer Vision Algorithm for Suturing Skill Assessment
-This is an improved version of the algorithm desscribed in the paper *Development of Computer Vision Algorithm towards Assessment of Suturing Skill*[^2017paper]. Compared with the original version, the improved algorithm
+This is an improved version of the algorithm described in the paper *Development of Computer Vision Algorithm towards Assessment of Suturing Skill*[^2017paper]. Compared with the original version, the improved algorithm
 1. Uses object-oriented programming (OOP).
 2. Increases the computational speed by using multithreading.
 3. Improves needle/thread detection accuracy by using background subtraction techniques.
