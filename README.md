@@ -1,10 +1,16 @@
 # Computer Vision Algorithm for Suturing Skill Assessment
-This is an improved version of the algorithm described in the paper *Development of Computer Vision Algorithm towards Assessment of Suturing Skill*[^2017paper]. Compared with the original version, the improved algorithm
+## Project description
+Suturing training requires objective skill evaluation. Based on the simulator described in [^dissertation] and [^2017paper], we develop the 2-generation of the suturing simulator (shown in Fig. ). During the suturing training, a subject is required to perform outside-in sutures from Region 1 to 12 on a radial pattern (See Fig. ).
+
+This web page focuses on the improved computer vision algorithm for the camera inside the simulator (See Fig. ). Compared with the predecessor[^2017paper], the improved version
 1. Uses object-oriented programming (OOP).
 2. Increases the computational speed by using multithreading.
 3. Improves needle/thread detection accuracy by using background subtraction techniques.
 4. Supports analyzing video files and real-time video stream.
-5. Allows re-insertion at each suture.
+5. Allows re-insertion at each region.
+
+[^dissertation]:
+    Kil, Irfan. "Development and Preliminary Validation of Image-enabled Process Metrics for Assessment of Open Surgery Suturing Skill." PhD diss., Clemson University, 2019
 
 [^2017paper]:
     Kil, Irfan, Anand Jagannathan, Ravikiran B. Singapogu, and Richard E. Groff. "Development of computer vision algorithm towards assessment of suturing skill." In 2017 IEEE EMBS International Conference on Biomedical & Health Informatics (BHI), pp. 29-32. IEEE, 2017.
