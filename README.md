@@ -1,10 +1,10 @@
 # Computer Vision Algorithm for Suturing Skill Assessment
 ## Project description
-Suturing training requires objective skill evaluation. Based on the simulator described in [^dissertation], we develop the 2-generation suturing simulator (shown in Fig. 1a) to assess suturing skills. During the suturing training, a subject is required to perform outside-in sutures from Region 1 to 12 on a radial pattern (See Fig. 1b).
+Suturing training requires objective skill evaluation. Based on the simulator described in [^dissertation], we developed the 2-generation suturing simulator (shown in Fig. 1a) to assess suturing skills. During the suturing training, a subject is instructed to perform outside-in sutures from Region 1 to 12 on a radial pattern (See Fig. 1b).
 
 ![images(modified)](https://user-images.githubusercontent.com/59490151/188658567-7e6c8b6e-1a1d-4193-a881-6af3391c2493.png)
 
-This web page focuses on the improved computer vision algorithm for Camera 2 (See Fig. 1c). Compared with the predecessor[^2017paper], the improved algorithm
+This web page focuses on the improved computer vision algorithm for Camera 2 (See Fig. 1c). Compared with the predecessor[^2017paper], the enhanced algorithm
 1. Uses object-oriented programming (OOP).
 2. Increases the computational speed by using multithreading.
 3. Improves needle/thread detection accuracy by using background subtraction techniques.
@@ -24,12 +24,12 @@ To verify the algorithm performance, we create a synchronized video, which inclu
 
 https://user-images.githubusercontent.com/59490151/189790317-d4b3917f-5cf8-402d-adcd-add7cf1e520c.mp4
 
-Within the right video, the algorithm outputs are visualized by 3 image patches (shown on the far right) and 4 circles drawn on the white fabric. 
-- For the 3 image patches:
-  - The top image patch demonstrates the needle (shown in magenta) and the thread (shown in yellow) that are recognized by the algorithm. 
+Within the right video, the algorithm outputs are visualized by three image patches (shown on the far right) and four circles drawn on the white fabric. 
+- For the three image patches:
+  - The top image patch demonstrates the needle (shown in magenta) and the thread (shown in yellow) recognized by the algorithm. 
   - The middle image patch shows the needle swept area[^2018paper].
   - The bottom image patch shows the needle sway length[^2018paper].
-- For the 4 circles drawn on the white fabric:
+- For the four circles drawn on the white fabric:
   - The blue circle denotes the needle tip detected by the algorithm.
   - The red circle represents the needle-thread connection detected by the algorithm.
   - The black circle denotes the detected needle entry location.
@@ -46,5 +46,6 @@ This algorithm is written in C++. It requires the following software
 - OpenCV 3.4.0 (with GPU support)
 - CUDA 9.1
 
-
+## Acknowledgment
+I want to show my deep appreciation to my advisors, Dr. Richard E. Groff and Dr. Ravikiran B. Singapogu, who helped me throughout the project. I would also like to thank Zhanhe Liu, Simar P. Singh, and Mehdi Shayan, who supported me and gave valuable suggestions during the project.
 
