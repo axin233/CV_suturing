@@ -22,7 +22,7 @@ To verify the algorithm performance, we create a synchronized video, which inclu
 - The left video is from Camera 1 (shown in Fig. 1a).
 - The right video, overlaid with the detection results, is from Camera 2 (shown in Fig. 1c).
 
-https://user-images.githubusercontent.com/59490151/188332404-ed8098eb-9aae-45f4-a8cf-57a4e1a8ce5a.mp4
+https://user-images.githubusercontent.com/59490151/189790317-d4b3917f-5cf8-402d-adcd-add7cf1e520c.mp4
 
 Within the right video, the algorithm outputs are visualized by 3 image patches (shown on the far right) and 4 circles drawn on the white fabric. 
 - For the 3 image patches:
@@ -45,4 +45,6 @@ This algorithm is written in C++. It requires the following software
 - Visual Studio 2017 (version: 15.45)
 - OpenCV 3.4.0 (with GPU support)
 - CUDA 9.1
+
+
 
