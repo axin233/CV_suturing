@@ -50,5 +50,5 @@ This algorithm is written in C++. It requires the following software
 - CUDA 9.1
 
 ## Acknowledgment
-I want to show my deep appreciation to my advisors, Dr. Richard E. Groff and Dr. Ravikiran B. Singapogu, who helped me throughout the project. I would also like to thank Zhanhe Liu, Simar P. Singh, and Mehdi Shayan, who supported me and gave valuable suggestions during the project.
+This work was supported by the National Institutes of Health (NIH) grant number 5R01HL146843. Meanwhile, I want to show my deep appreciation to my advisors, Dr. Richard E. Groff and Dr. Ravikiran B. Singapogu, who helped me throughout the project. I would also like to thank Zhanhe Liu, Simar P. Singh, and Mehdi Shayan, who supported me and gave valuable suggestions during the project.
 
