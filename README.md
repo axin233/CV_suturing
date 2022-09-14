@@ -49,6 +49,9 @@ This algorithm is written in C++. It requires the following software
 - OpenCV 3.4.0 (with GPU support)
 - CUDA 9.1
 
+## Code access
+Since the project is still in progress, this website doesn’t contain the code. If you are interested in it, please get in touch with jianxig@g.clemson.edu.
+
 ## Acknowledgment
 This work was supported by the National Institutes of Health (NIH) grant number 5R01HL146843. Meanwhile, I want to show my deep appreciation to my advisors, Dr. Richard E. Groff and Dr. Ravikiran B. Singapogu, who helped me throughout the project. I would also like to thank Zhanhe Liu, Simar P. Singh, and Mehdi Shayan, who supported me and gave valuable suggestions during the project.
 
