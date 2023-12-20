@@ -25,16 +25,16 @@ To verify the algorithm performance, we create a synchronized video, which inclu
 - The left video is from Camera 1 (shown in Fig. 1a).
 - The right video, overlaid with the detection results, is from Camera 2 (shown in Fig. 1c).
 
-https://user-images.githubusercontent.com/59490151/189790317-d4b3917f-5cf8-402d-adcd-add7cf1e520c.mp4
+https://github.com/axin233/CV_suturing/assets/59490151/418894a6-7f8b-4073-8c82-47128028bd26
 
-Within the right video, the algorithm outputs are visualized by three image patches (shown on the far right) and four circles drawn on the white fabric. 
-- For the three image patches:
+Within the right video, the algorithm outputs are visualized by image patches (shown on the far right) and circles drawn on the white fabric. 
+- For the image patches:
   - The top image patch demonstrates the needle (shown in magenta) and the thread (shown in yellow) recognized by the algorithm. 
   - The middle image patch shows the needle swept area[^2018paper].
   - The bottom image patch shows the needle sway length[^2018paper].
-- For the four circles drawn on the white fabric:
-  - The blue circle denotes the needle tip detected by the algorithm.
-  - The red circle represents the needle-thread connection detected by the algorithm.
+- For the circles drawn on the white fabric:
+  - The blue circle denotes the detected needle tip.
+  - The red circle represents the detected needle-thread connection.
   - The black circle denotes the detected needle entry location.
   - The magenta circle represents the detected needle exit location.
   
