@@ -20,7 +20,8 @@ To complete an exercise on the improved simulator, a participant starts insertin
 - Surface condition (see Fig. 1 (d)).
 - Depth condition (see Fig. 1 (e)).
 
-This web page focuses on the improved computer vision algorithm for Camera 1 (See Fig. 1 (c)). Compared with the predecessor[^2017paper], the enhanced algorithm has the following improvements.
+## Computer vision algorithm for real-time needle detection
+The algorithm is designed for processing videos from Camera 1 (See Fig. 1 (c)). Compared with the predecessor[^2017paper], the enhanced algorithm has the following improvements.
 1. has fewer fault detections with the help of a reliable light source (see Fig. 1 (c)).
 2. Uses object-oriented programming (OOP).
 3. Increases the computational speed by using multithreading.
@@ -57,6 +58,14 @@ Within the right video, the algorithm outputs are visualized by image patches (s
 
 [^2018paper]:
     Kil, Irfan, Richard E. Groff, and Ravikiran B. Singapogu. "Surgical suturing with depth constraints: Image-based metrics to assess skill." In 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pp. 4146-4149. IEEE, 2018.
+
+## Related works
+The algorithm detection results have been used in the following papers:
+> Shayan, A. M., Singh, S., Gao, J., Groff, R. E., Bible, J., Eidt, J. F., ... & Singapogu, R. (2023). Measuring hand movement for suturing skill assessment: A simulation-based study. Surgery, 174(5), 1184-1192.
+
+> Singh, S., Shayan, A. M., Gao, J., Bible, J., Groff, R. E., & Singapogu, R. (2023). Objective and automated quantification of instrument handling for open surgical suturing skill assessment: A simulation-based study. OJEMB. (unpublished)
+
+More papers will be coming soon! :hugs:
 
 ## System requirements
 This algorithm is written in C++. It requires the following software
