@@ -80,7 +80,7 @@ This algorithm is written in C++. It requires the following software
 - CUDA 9.1
 
 ## Code access
-Since some of our papers are still in progress, this website doesn’t contain the code. If you are interested in it, please get in touch with jianxig@g.clemson.edu.
+Since some of our papers are still in progress, this website doesn’t contain the code. If you are interested in it, please email me at jianxig@g.clemson.edu. :smile:
 
 ## Acknowledgment
 This work was supported by the National Institutes of Health (NIH) grant number 5R01HL146843. Meanwhile, I want to show my deep appreciation to my advisors, Dr. Richard E. Groff and Dr. Ravikiran B. Singapogu, who helped me throughout the project. I would also like to thank Zhanhe Liu, Simar P. Singh, and Mehdi Shayan, who supported me and gave valuable suggestions during the project.
