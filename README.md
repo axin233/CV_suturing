@@ -1,6 +1,6 @@
 # Computer Vision Algorithm for real-time needle detection
 ## Project description
-Suturing training requires objective skill evaluation. Based on the simulator described in [^first_paper] and [^dissertation], we developed the 2-generation suturing simulator (shown in Fig. 1 (a)) to assess suturing skills. 
+Suturing training requires sensor-embedded simulators for objective skill evaluation. Based on the simulator described in [^first_paper] and [^dissertation], we developed the 2-generation simulator (shown in Fig. 1 (a)) for surgical suturing skill assessment. 
 
 <!--
 ![images(modified)](https://user-images.githubusercontent.com/59490151/188658567-7e6c8b6e-1a1d-4193-a881-6af3391c2493.png)
