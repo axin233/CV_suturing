@@ -21,12 +21,14 @@ To complete an exercise on the improved simulator, a participant starts insertin
 - Depth condition (see Fig. 1 (e)).
 
 ## Computer vision algorithm for real-time needle detection
-The algorithm is designed for processing videos from Camera 1 (See Fig. 1 (c)). Compared with the predecessor[^2017paper], the enhanced algorithm has the following improvements.
+Kil et al. [^dissertation] have proposed a computer vision algorithm for detecting needle motion, which verified that needle swept area, needle sway length, and needle tip path can be used to distinguish participants' skill levels. This algorithm, however, was designed for processing comparatively small video data. To allow the algorithm to process a large amount of video data, we re-designed the computer vision algorithm. 
+
+Compared with the predecessor, the enhanced algorithm has the following improvements.
 1. has fewer fault detections with the help of a reliable light source (see Fig. 1 (c)).
 2. Uses object-oriented programming (OOP).
 3. Increases the computational speed by using multithreading.
 4. Improves needle/thread detection accuracy by using background subtraction techniques.
-5. Supports analyzing video files and real-time video streams.
+5. Supports analyzing video files and real-time video streams from Camera 1 (See Fig. 1 (c)).
 6. Allows re-insertion at each region.
 
 [^first_paper]:
@@ -35,29 +37,33 @@ The algorithm is designed for processing videos from Camera 1 (See Fig. 1 (c)). 
 [^dissertation]:
     Kil, Irfan. "Development and Preliminary Validation of Image-enabled Process Metrics for Assessment of Open Surgery Suturing Skill." PhD diss., Clemson University, 2019
 
+<!--
 [^2017paper]:
     Kil, Irfan, Anand Jagannathan, Ravikiran B. Singapogu, and Richard E. Groff. "Development of computer vision algorithm towards assessment of suturing skill." In 2017 IEEE EMBS International Conference on Biomedical & Health Informatics (BHI), pp. 29-32. IEEE, 2017.
+-->
 
 ## Video demo
 To verify the algorithm performance, we create a synchronized video, which includes two video streams.
-- The left video is from Camera 2 (shown in Fig. 1 (a)).
-- The right video, overlaid with the detection results, is from Camera 1 (shown in Fig. 1 (c)).
+- The left video is from Camera 2 (see Fig. 1 (a)).
+- The right video, overlaid with the detection results, is from Camera 1 (see Fig. 1 (c)).
 
 https://github.com/axin233/CV_suturing/assets/59490151/418894a6-7f8b-4073-8c82-47128028bd26
 
 Within the right video, the algorithm outputs are visualized by image patches (shown on the far right) and circles drawn on the white fabric. 
 - For the image patches:
   - The top image patch demonstrates the needle (shown in magenta) and the thread (shown in yellow) recognized by the algorithm. 
-  - The middle image patch shows the needle swept area[^2018paper].
-  - The bottom image patch shows the needle sway length[^2018paper].
+  - The middle image patch shows the needle swept area.
+  - The bottom image patch shows the needle sway length.
 - For the circles drawn on the white fabric:
   - The blue circle denotes the detected needle tip.
   - The red circle represents the detected needle-thread connection.
   - The black circle denotes the detected needle entry location.
   - The magenta circle represents the detected needle exit location.
 
+<!--
 [^2018paper]:
     Kil, Irfan, Richard E. Groff, and Ravikiran B. Singapogu. "Surgical suturing with depth constraints: Image-based metrics to assess skill." In 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pp. 4146-4149. IEEE, 2018.
+-->
 
 ## Related works
 The algorithm detection results have been used in the following papers:
@@ -74,7 +80,7 @@ This algorithm is written in C++. It requires the following software
 - CUDA 9.1
 
 ## Code access
-Since the project is still in progress, this website doesn’t contain the code. If you are interested in it, please get in touch with jianxig@g.clemson.edu.
+Since some of our papers are still in progress, this website doesn’t contain the code. If you are interested in it, please get in touch with jianxig@g.clemson.edu.
 
 ## Acknowledgment
 This work was supported by the National Institutes of Health (NIH) grant number 5R01HL146843. Meanwhile, I want to show my deep appreciation to my advisors, Dr. Richard E. Groff and Dr. Ravikiran B. Singapogu, who helped me throughout the project. I would also like to thank Zhanhe Liu, Simar P. Singh, and Mehdi Shayan, who supported me and gave valuable suggestions during the project.
