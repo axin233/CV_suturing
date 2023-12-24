@@ -35,7 +35,7 @@ Compared with the predecessor, the enhanced algorithm has the following improvem
     Singapogu, Ravikiran B., Tanmay Kavathekar, John F. Eidt, Richard E. Groff, and Timothy C. Burg. "A Novel Platform for Assessment of Surgical Suturing Skill: Preliminary Results." In MMVR, pp. 375-378. 2016.
 
 [^dissertation]:
-    Kil, Irfan. "Development and Preliminary Validation of Image-enabled Process Metrics for Assessment of Open Surgery Suturing Skill." PhD diss., Clemson University, 2019
+    Kil, Irfan. "Development and preliminary validation of image-enabled process metrics for assessment of open surgery suturing skill." PhD diss., Clemson University, 2019
 
 <!--
 [^2017paper]:
@@ -64,6 +64,23 @@ Within the right video, the algorithm outputs are visualized by image patches (s
 [^2018paper]:
     Kil, Irfan, Richard E. Groff, and Ravikiran B. Singapogu. "Surgical suturing with depth constraints: Image-based metrics to assess skill." In 2018 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC), pp. 4146-4149. IEEE, 2018.
 -->
+
+## How does it work
+
+Fig. 2 shows the code structure of the simulator software, which includes the data collection program, the computer vision algorithm, and the metric calculation program. Details can be found in [^my_dissertation].
+
+[^my_dissertation]:
+    Gao, Jianxin. "Computer vision algorithms for assessment of surgical suturing skill using hand and needle motion" PhD proposal (unpublished)
+
+<!--
+![suturing_code](https://github.com/axin233/CV_suturing/assets/59490151/67cffa56-e580-4c05-80fd-94fc891707e6)
+-->
+
+<p align="center">
+  <img width="800" height="379" src="https://github.com/axin233/CV_suturing/assets/59490151/67cffa56-e580-4c05-80fd-94fc891707e6">
+</p>
+
+> Fig. 2. Code structure of the simulator software
 
 ## Related works
 The algorithm detection results have been used in the following papers:
