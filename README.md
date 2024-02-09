@@ -86,7 +86,7 @@ Fig. 2 shows the code structure of the simulator software, which includes the da
 The algorithm detection results have been used in the following papers:
 > Shayan, A. M., Singh, S., Gao, J., Groff, R. E., Bible, J., Eidt, J. F., ... & Singapogu, R. (2023). Measuring hand movement for suturing skill assessment: A simulation-based study. Surgery, 174(5), 1184-1192.
 
-> Singh, S., Shayan, A. M., Gao, J., Bible, J., Groff, R. E., & Singapogu, R. (2023). Objective and automated quantification of instrument handling for open surgical suturing skill assessment: A simulation-based study. OJEMB. (unpublished)
+> Singh, S., Shayan, A. M., Gao, J., Bible, J., Groff, R. E., & Singapogu, R. (2023). Objective and automated quantification of instrument handling for open surgical suturing skill assessment: A simulation-based study. OJEMB. (in press)
 
 More papers will be coming soon! :hugs:
 
